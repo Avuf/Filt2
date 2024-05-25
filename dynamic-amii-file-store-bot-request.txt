@@ -1,0 +1,103 @@
+Instance created. Preparing to start...
+Instance is starting. Propagating network configuration...
+Network configuration propagated
+Traceback (most recent call last):
+  File "/workspace/main.py", line 3, in <module>
+    Bot().run()
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/utilities/run.py", line 80, in run
+    run(self.start())
+  File "/app/.heroku/python/lib/python3.12/asyncio/base_events.py", line 684, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspace/bot.py", line 40, in start
+    await super().start()
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/utilities/start.py", line 62, in start
+    await self.authorize()
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/client.py", line 333, in authorize
+    return await self.sign_in_bot(self.bot_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/bot.py", line 40, in start
+    await super().start()
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/utilities/start.py", line 62, in start
+    await self.authorize()
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/client.py", line 333, in authorize
+    return await self.sign_in_bot(self.bot_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/auth/sign_in_bot.py", line 51, in sign_in_bot
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.flood_420.FloodWait: Telegram says: [420 FLOOD_WAIT_X] - A wait of 1820 seconds is required (caused by "auth.ImportBotAuthorization")
+Instance stopped
+Instance created. Preparing to start...
+Instance is starting. Propagating network configuration...
+Network configuration propagated
+Traceback (most recent call last):
+  File "/workspace/main.py", line 3, in <module>
+    Bot().run()
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/utilities/run.py", line 80, in run
+    run(self.start())
+  File "/app/.heroku/python/lib/python3.12/asyncio/base_events.py", line 684, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspace/bot.py", line 40, in start
+    await super().start()
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/utilities/start.py", line 62, in start
+    await self.authorize()
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/client.py", line 333, in authorize
+    return await self.sign_in_bot(self.bot_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/auth/sign_in_bot.py", line 51, in sign_in_bot
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.flood_420.FloodWait: Telegram says: [420 FLOOD_WAIT_X] - A wait of 1766 seconds is required (caused by "auth.ImportBotAuthorization")
+Traceback (most recent call last):
+  File "/workspace/main.py", line 3, in <module>
+    Bot().run()
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/utilities/run.py", line 80, in run
+    run(self.start())
+  File "/app/.heroku/python/lib/python3.12/asyncio/base_events.py", line 684, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/workspace/bot.py", line 40, in start
+    await super().start()
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/utilities/start.py", line 62, in start
+    await self.authorize()
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/client.py", line 333, in authorize
+    return await self.sign_in_bot(self.bot_token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/auth/sign_in_bot.py", line 51, in sign_in_bot
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/app/.heroku/python/lib/python3.12/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.flood_420.FloodWait: Telegram says: [420 FLOOD_WAIT_X] - A wait of 1756 seconds is required (caused by "auth.ImportBotAuthorization")
+Application exited with code 1. This usually indicates an application failure. Check that the command used to launch your application is correct.
+Instance stopped
